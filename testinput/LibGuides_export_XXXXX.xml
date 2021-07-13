@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libguides>
+  <customer>
+    <id>64</id>
+    <type>Academic Institution</type>
+    <name>Tiny Institute of Small Things</name>
+    <url>https://library.example.edu/</url>
+    <city>Anytown</city>
+    <state>Euforia</state>
+    <country>United Places of North America</country>
+    <time_zone>America/Los_Angeles</time_zone>
+    <created>2014-02-13 00:24:29</created>
+    <updated>2020-02-04 19:59:10</updated>
+  </customer>
+  <site>
+    <id>64</id>
+    <type>LibGuides</type>
+    <name>LibGuides</name>
+    <domain>libguides.example.edu</domain>
+    <admin>libapps@library.example.edu</admin>
+    <created>2014-02-13 00:24:29</created>
+    <updated>2020-07-21 22:00:18</updated>
+ </site>
+  <accounts>
+  <account>
+   <id>1</id>
+   <email>shrimps@engineering.example.edu</email>
+   <first_name>Crusty</first_name>
+   <last_name>Anthropod</last_name>
+   <title>A Watery Engineer</title>
+   <nickname>Barnicle Bob</nickname>
+   <signature>Somewhere in the food chain | MC 0-07 | Anytown, Euforia 0000001 | 111-222-3333 | www.library.example.edu </signature>
+   <image></image>
+   <address></address>
+   <phone>(111) 222-3333</phone>
+   <skype></skype>
+   <website>https://caltechlibrary.github.io/</website>
+   <created>2019-09-09 22:37:09</created>
+   <updated>2020-06-29 15:24:34</updated>
+  </account>
+  <account>
+   <id>2</id>
+   <email>whales@telescopes.example.edu</email>
+   <first_name>Micro</first_name>
+   <last_name>Nanometer</last_name>
+   <title></title>
+   <nickname></nickname>
+   <signature></signature>
+   <image></image>
+   <address></address>
+   <phone></phone>
+   <skype></skype>
+   <website></website>
+   <created>2016-08-08 22:02:41</created>
+   <updated>2020-03-06 17:14:19</updated>
+  </account>
+  <account>
+   <id>3</id>
+   <email>tiff@feegles.example.edu</email>
+   <first_name>Tiffany</first_name>
+   <last_name>Aching</last_name>
+   <title></title>
+   <nickname>Kelda, the tall one</nickname>
+   <signature></signature>
+   <image></image>
+   <address></address>
+   <phone></phone>
+   <skype></skype>
+   <website></website>
+   <created>2017-05-26 16:11:34</created>
+   <updated>2020-06-29 22:37:02</updated>
+  </account>
+ </accounts>
+
+<groups>
+  <group>
+   <id>9</id>
+   <type>Public</type>
+   <name>Watery Engineering</name>
+   <url>https://libguides.example.edu/engineering</url>
+   <description></description>
+   <password></password>
+   <created>2016-06-14 15:01:19</created>
+   <updated>2016-07-22 21:44:35</updated>
+  </group>
+</groups>
+
+<subjects>
+  <subject>
+   <id>2</id>
+   <name>Biology</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=2</url>
+  </subject>
+  <subject>
+   <id>40</id>
+   <name>Business</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=40</url>
+  </subject>
+  <subject>
+   <id>346</id>
+   <name>Chemistry</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=346</url>
+  </subject>
+  <subject>
+   <id>983</id>
+   <name>Digital Repositories</name>
+   <url>https://libguides.example.edu/digitalrepositories</url>
+  </subject>
+  <subject>
+   <id>8339</id>
+   <name>Engineering</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=8339</url>
+  </subject>
+  <subject>
+   <id>834</id>
+   <name>Geological and Planetary Sciences</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=834</url>
+  </subject>
+  <subject>
+   <id>341</id>
+   <name>Humanities &amp; Social Sciences</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=341</url>
+  </subject>
+  <subject>
+   <id>343</id>
+   <name>Physics, Mathematics &amp; Astronomy</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=343</url>
+  </subject>
+</subjects>
+
+<tags>
+  <tag>
+   <id>305</id>
+   <name>3D</name>
+  </tag>
+  <tag>
+   <id>778</id>
+   <name>acm</name>
+  </tag>
+  <tag>
+   <id>770</id>
+   <name>aero</name>
+  </tag>
+  <tag>
+   <id>767</id>
+   <name>aeronautical</name>
+  </tag>
+  <tag>
+   <id>768</id>
+   <name>aeronautics</name>
+  </tag>
+  <tag>
+   <id>776</id>
+   <name>applied math</name>
+  </tag>
+  <tag>
+   <id>782</id>
+   <name>applied mechanics</name>
+  </tag>
+  <tag>
+   <id>462</id>
+   <name>Archives</name>
+  </tag>
+  <tag>
+   <id>837</id>
+   <name>ark</name>
+  </tag>
+  <tag>
+   <id>805</id>
+   <name>author services</name>
+  </tag>
+  <tag>
+   <id>834</id>
+   <name>authors</name>
+  </tag>
+  <tag>
+   <id>803</id>
+   <name>bbe</name>
+  </tag>
+  <tag>
+   <id>759</id>
+   <name>bibliographies</name>
+  </tag>
+  <tag>
+   <id>902</id>
+   <name>biochemistry</name>
+  </tag>
+  <tag>
+   <id>753</id>
+   <name>biography</name>
+  </tag>
+  <tag>
+   <id>594</id>
+   <name>biological engineering</name>
+  </tag>
+  <tag>
+   <id>802</id>
+   <name>biology</name>
+  </tag>
+  <tag>
+   <id>911</id>
+   <name>bmb</name>
+  </tag>
+  <tag>
+   <id>775</id>
+   <name>business</name>
+  </tag>
+  <tag>
+   <id>799</id>
+   <name>collection</name>
+  </tag>
+  <tag>
+   <id>828</id>
+   <name>campus</name>
+  </tag>
+  <tag>
+   <id>787</id>
+   <name>carpentry</name>
+  </tag>
+  <tag>
+   <id>819</id>
+   <name>cce</name>
+  </tag>
+  <tag>
+   <id>805</id>
+   <name>cds</name>
+  </tag>
+  <tag>
+   <id>910</id>
+   <name>che</name>
+  </tag>
+  <tag>
+   <id>820</id>
+   <name>chemistry</name>
+  </tag>
+  <tag>
+   <id>367</id>
+   <name>citation management</name>
+  </tag>
+  <tag>
+   <id>779</id>
+   <name>civil</name>
+  </tag>
+  <tag>
+   <id>642</id>
+   <name>class guide</name>
+  </tag>
+  <tag>
+   <id>771</id>
+   <name>companies</name>
+  </tag>
+  <tag>
+   <id>777</id>
+   <name>computational math</name>
+  </tag>
+  <tag>
+   <id>766</id>
+   <name>computer science</name>
+  </tag>
+  <tag>
+   <id>762</id>
+   <name>computers</name>
+  </tag>
+  <tag>
+   <id>827</id>
+   <name>computing</name>
+  </tag>
+  <tag>
+   <id>804</id>
+   <name>control</name>
+  </tag>
+  <tag>
+   <id>795</id>
+   <name>copyright</name>
+  </tag>
+  <tag>
+   <id>477</id>
+   <name>course</name>
+  </tag>
+  <tag>
+   <id>459</id>
+   <name>crystallography</name>
+  </tag>
+  <tag>
+   <id>763</id>
+   <name>cs</name>
+  </tag>
+  <tag>
+   <id>382</id>
+   <name>cybersecurity</name>
+  </tag>
+  <tag>
+   <id>826</id>
+   <name>databases</name>
+  </tag>
+  <tag>
+   <id>830</id>
+   <name>disambiguation</name>
+  </tag>
+  <tag>
+   <id>785</id>
+   <name>dissertations</name>
+  </tag>
+  <tag>
+   <id>835</id>
+   <name>doi</name>
+  </tag>
+  <tag>
+   <id>810</id>
+   <name>ebooks</name>
+  </tag>
+  <tag>
+   <id>551</id>
+   <name>economics</name>
+  </tag>
+  <tag>
+   <id>068</id>
+   <name>edbi</name>
+  </tag>
+</tags>
+
+<vendors>
+  <vendor>
+   <id>101127</id>
+   <name>American Chemical Society</name>
+  </vendor>
+  <vendor>
+   <id>78209</id>
+   <name>American Mathematical Society</name>
+  </vendor>
+  <vendor>
+   <id>83986</id>
+   <name>Brepolis</name>
+  </vendor>
+  <vendor>
+   <id>113355</id>
+   <name>CINDAS</name>
+  </vendor>
+  <vendor>
+   <id>105931</id>
+   <name>Cold Spring Harbor Laboratory</name>
+  </vendor>
+  <vendor>
+   <id>103354</id>
+   <name>EBSCO</name>
+  </vendor>
+  <vendor>
+   <id>109980</id>
+   <name>Elsevier</name>
+  </vendor>
+  <vendor>
+   <id>105710</id>
+   <name>Geological Society of America</name>
+  </vendor>
+  <vendor>
+   <id>105929</id>
+   <name>Institute of Physics (IOP)</name>
+  </vendor>
+  <vendor>
+   <id>102922</id>
+   <name>McGraw-Hill</name>
+  </vendor>
+  <vendor>
+   <id>99775</id>
+   <name>NIST</name>
+  </vendor>
+  <vendor>
+   <id>110156</id>
+   <name>Royal Society of Chemistry</name>
+  </vendor>
+  <vendor>
+   <id>91109</id>
+   <name>SRI International</name>
+  </vendor>
+  <vendor>
+   <id>105776</id>
+   <name>Swank</name>
+  </vendor>
+  <vendor>
+   <id>97422</id>
+   <name>Thieme</name>
+  </vendor>
+  </vendors>
+  <guides>
+  <guide>
+  <pages>
+<page>
+     <id>1</id>
+     <name>Lectures</name>
+     <description></description>
+     <url>https://libguides.example.edu/c.php?g=512671&amp;p=3502869</url>
+     <redirect></redirect>
+     <source_page_id>0</source_page_id>
+     <parent_page_id>0</parent_page_id>
+     <position>3</position>
+     <hidden>0</hidden>
+     <created>2010-05-07 16:07:50</created>
+     <updated>2010-05-07 16:07:50</updated>
+     <modified>2019-11-06 20:23:57</modified>
+     <boxes>
+      <box>
+       <id>10819925</id>
+       <name>Lecture</name>
+       <type>Standard</type>
+       <map_id>12743438</map_id>
+       <column>1</column>
+       <position>1</position>
+       <hidden>0</hidden>
+       <created>2010-05-07 16:14:20</created>
+       <updated>2016-06-14 15:01:48</updated>
+       <assets>
+        <asset>
+         <id>23138172</id>
+         <name>H112 Powerpoint Slides</name>
+         <type>Document / File</type>
+         <description></description>
+         <url>https://libguides.example.edu/ld.php?content_id=23138172</url>
+         <owner>
+          <id>2</id>
+          <email>whales@telescopes.example.edu</email>
+          <first_name>Micro</first_name>
+          <last_name>Nanometer</last_name>
+         </owner>
+         <map_id>25811572</map_id>
+         <position>1</position>
+         <file_name>powerpoint.ppt</file_name>
+         <password></password>
+         <created>2016-07-09 00:00:05</created>
+         <updated>2020-03-03 18:06:49</updated>
+        </asset>
+        <asset>
+         <id>22381508</id>
+         <name></name>
+         <type>Rich Text / HTML</type>
+         <description>&lt;p&gt;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;&lt;meta name=&quot;ProgId&quot; content=&quot;Word.Document&quot; /&gt;&lt;meta name=&quot;Generator&quot; content=&quot;Microsoft Word 12&quot; /&gt;&lt;meta name=&quot;Originator&quot; content=&quot;Microsoft Word 12&quot; /&gt;&lt;/p&gt;
+&lt;link href=&quot;file:///C:DOCUME~1lindsayLOCALS~1Tempmsohtmlclip1clip_filelist.xml&quot; rel=&quot;File-List&quot; /&gt;
+&lt;link href=&quot;file:///C:DOCUME~1lindsayLOCALS~1Tempmsohtmlclip1clip_themedata.thmx&quot; rel=&quot;themeData&quot; /&gt;
+&lt;link href=&quot;file:///C:DOCUME~1lindsayLOCALS~1Tempmsohtmlclip1clip_colorschememapping.xml&quot; rel=&quot;colorSchemeMapping&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+&lt;/style&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;4&quot;&gt;Notes for Lecture 7: the Tenth and (early) Eleventh Centuries&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.75in; text-indent: -0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&lt;span&gt;I.&lt;span style=&quot;font: 7pt &amp;amp;amp;amp;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;Intro&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-today going to move on in time: into 10c.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-also going to move back to continent, and pick up looking at Vikings from outside&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.75in; text-indent: -0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&lt;span&gt;II.&lt;span style=&quot;font: 7pt &amp;amp;amp;amp;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;The Vikings in Francia 10c.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[Frankish kingdoms]&lt;o:p&gt;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 1in; text-indent: -0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&lt;span&gt;A.&lt;span style=&quot;font: 7pt &amp;amp;amp;amp;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;Where we left things&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.75in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-where we last left Frankish kingdom: 880&amp;rsquo;s and 890&amp;rsquo;s: Viking army had moved around NW Europe. &lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-no effort to settle: raiding from ships, from fortified bases, goals apparently plunder, ransom, or trade.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-885: some Vikings besieged Paris. City held out for more than a year, under leadership of Odo, Count of Paris, until Carolingian emperor Charles the Fat showed up w/relief force. Charles did little more that give them money to leave Paris alone.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Charles the Fat deposed 887; Odo, hero of Paris, became King of West Franks (note non-Carolingian). Over next two years managed to drive Viking fleets from Seine. So Vikings went east.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-in the east, Arnulf (illegitimate Carolingian), mounted direct and stiff resistance; 891inflicted major defeat on Viking army (in modern Belgium)&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-severe famine in 891-892: put pressure on Vikings? Uncertain.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-What is certain: by early 890&amp;rsquo;s most Vikings had left. Many reassembled in England, to pose challenge to King Alfred.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 1in; text-indent: -0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&lt;span&gt;B.&lt;span style=&quot;font: 7pt &amp;amp;amp;amp;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;Creation of Normandy&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Frankish kingdoms had a few years&amp;rsquo; rest from Vikings. Turn of the century, however, some Vikings tried again, this time w/even more far-reaching consequences.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-896: small fleet appears on Seine. Stubborn; intended to stay put.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-moved up and down Seine Valley&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-W. Frankish King Charles the Simple (back to Carolingian; history of W. Frankish kingship in this period one of competition between Carolingians and family of Count Odo, the Robertings) tried to deal with them; repeatedly fought incursions along the Seine for next decade.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-by ca. 911: situation had reached an impasse: Franks could not drive Scandinavians away; Scandinavians could not break out into interior.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[Detail map of Normandy]&lt;o:p&gt;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-911: Vikings defeated decisively at Chartres.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-negotiated solution then worked out. Details of negotiations unclear. Agreement reached between King Charles and Viking leader Hrolfur (= in Frankish Rollo). Scandinavians granted land around Rouen in exchange for ceasing attacks inland and protecting Seine against other raiders.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-note this was not at all unusual; have seen Frankish kings give Vikings land before in exchange for protecting territory, especially around river mouths. King Charles may not have thought that arrangement would be permanent.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-Rollo had other ideas. Began parceling out land between Epte and Risle rivers, settled down w/capital at Rouen.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-did &amp;ldquo;protect&amp;rdquo; Seine valley for awhile, but eventually started raids again; succeeded in expanding lands westward to river Vire.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-927 died; handed power to son William &amp;ldquo;Longsword&amp;rdquo;. &lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-William proceeded to extend boundaries of territory even farther: entire Cotentin peninsula W. of Vire by 933. Gave him self contained area w/defensible inland border against Franks (note lines of rivers in the east)&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-Franks made one last effort to dislodge Vikings in 940&amp;rsquo;s; failed. Forced to recognize that situation permanent.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;-result: new principality w/defined borders and ruling house. To Franks: &amp;ldquo;Nordmannia&amp;rdquo; = &amp;ldquo;land of the Northmen&amp;rdquo; = Normandy.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 1in; text-indent: -0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&lt;span&gt;C.&lt;span style=&quot;font: 7pt &amp;amp;amp;amp;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;Who the Normans were/where they came from&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Vikings who conquered and expanded Normandy a mixed bag.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Rollo himself probably Norwegian. Followers however, mostly Danish; Scandinavian place names in eastern Normandy (area granted in earliest treaty of 911) mostly Danish. Danes from Denmark? Danes from England? Not clear.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-names in W. Normandy show Celtic influence: Irish-Norse?&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Scandinavian population built up over time; repeated infusions of new settlers from different parts of Viking world.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-most interesting, though, is what happened: Scandinavian newcomers quickly assimilated into larger Frankish society around them.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-very few obviously pagan graves from settlement period: did they rapidly convert to Christianity, or just follow local customs?&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-archeology can&amp;rsquo;t help us much&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[P&amp;icirc;tres brooches]:&lt;/b&gt; Scandinavian type, found in a woman&amp;rsquo;s grave in Normandy. A Viking woman or a Frankish woman who had married a Viking?&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-by time William Longsword took over from father Rollo 927, Norse language on the way out. Mid 10c. hard to find Norse speakers in Rouen. Norse probably dead completely in Normandy by year 1000.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-why did all this happen? &lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-1) absolute number of Scandinavians probably small compared to local population. Probably rapid intermarriage.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-2) clearly Rollo and his followers not out to make Normandy part of greater Scandinavia. Wanted instead to become part of Frankish world; wanted to play power politics as equals with other Frankish leaders, establish themselves as European princes on par w/Frankish princes.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-by turn of 11c., Norman rulers using Frankish title &amp;ldquo;duke&amp;rdquo;; their territory became Duchy of Normandy.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 1in; text-indent: -0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&lt;span&gt;D.&lt;span style=&quot;font: 7pt &amp;amp;amp;amp;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;Brittany and the end of Viking raids on the continent.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-creation of Normandy did not quite end Viking story on continent. Failure of last real Viking adventure highlights why Normandy succeeded.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[Frankish kingdoms]&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoBodyTextIndent&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-existence of Normandy effectively blocked other Scandinavians from pursuing wealth and glory in Seine valley. Next nearest place to go was up the Loire: Brittany&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[Brittany detail]&lt;o:p&gt;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-haven&amp;rsquo;t talked much about Brittany, nor will I now. Old area, primarily Celtic population (refugees from Britain), had struggled, more or less successfully, to keep themselves independent of the Franks.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-from 840&amp;rsquo;s on Britanny hit hard by Vikings, just like everywhere else. Familiar story: Vikings exploiting political competition among Bretons and between Bretons and Franks. We saw Bretons and Franks uniting to fight Vikings, Bretons and Franks each hiring their own Vikings to fight each other.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-last Viking attacks on Brittany between 889-891.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-just after creation of Normandy, raiders hit Brittany again. Wave after wave, among them Danes from England. &lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Brittany went under for few years; from 914 ruled by a pair of Danish chieftains. 919: Danes went back to England, but group of Norwegians arrived and set about making their settlement permanent.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Norwegian kingdom in Brittany lasted until 930&amp;rsquo;s. 935: Franks allied w/Normans against Breton Vikings. 936: Anglo-Saxons sent in an army led by exiled Breton ruler. 939: Brittany back under Breton control.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-why did Norwegian attempt to settle in Brittany fail? Little sign of the rapid assimilation that happened in Normandy. Breton Vikings used territory as base and as source of supplies; did not try to merge w/locals or become part of local economy by trading &lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.75in; text-indent: -0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&lt;span&gt;III.&lt;span style=&quot;font: 7pt &amp;amp;amp;amp;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;Dudo of St. Quentin&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[back to Normandy detail]&lt;o:p&gt;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-text for this week deals w/Viking settlement of Normandy. Written by Dudo of St. Quentin&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Dudo lived 960-1026; member of clergy in St. Quentin (not in Normandy but to NE)&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-visited Normandy on diplomatic mission; became chaplain and chancellor to Norman Duke Richard I (d. 996)&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-commissioned to write history of earliest Norman dukes. Not certain when; one argument goes that he was commissioned to write history 994 and actually finished it between 1015-1026. Introduction to our translation has question still up for discussion&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-sources: members of ducal house, documents from ducal archive.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-will be asking our usual questions: what are Dudo&amp;rsquo;s purposes; what does he think it is important for us to know? What is a Viking?&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-may end up deciding that Dudo not great source for understanding Viking conquest of Normandy. Might say great deal, however, about process of assimilation, and how Normans wanted to be seen 100 years after Rollo, or how Dudo thought he should best fulfill commission. &lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 0.75in; text-indent: -0.5in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&lt;span&gt;IV.&lt;span style=&quot;font: 7pt &amp;amp;amp;amp;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;Scandinavians in England 10c.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[AS England]&lt;o:p&gt;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 1in; text-indent: -0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&lt;span&gt;A.&lt;span style=&quot;font: 7pt &amp;amp;amp;amp;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;Unification&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Alfred dies 899: Wessex still on defensive&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-successor: Edward &amp;ldquo;the Elder&amp;rdquo; spurred by rebellion by own cousin (Aethelwold), who allied himself w/king of Danish East Anglia (Eohric).&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Aethelwold/Eohric invade Mercia/Wessex 903. Edward counter-attacks (w/Alfred&amp;rsquo;s armies and Alfred&amp;rsquo;s forts), kills them both.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-909: Edward invades Northumbria and Scandinavian kingdom of York, defeats Danish army sent after him 910.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Next: w/sister Aethelfled (queen of Mercia) sets about reconquering territory from Danes S of Humber. Danish king of East Anglia killed 917, Danish resistance crumbles&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Northumbria slipped from Edward&amp;rsquo;s grasp; Irish-Norse chieftain from Dublin (Ragnald) goes on rampage that takes him through Scotland and down into Northumbria; 918-919 conquers Northumbria, seizes Danish kingdom of York.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-nonetheless: Edward had conquered for Wessex everything S. of Humber. Not all English happy to see him; many fought on side of Danes. &lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-nevertheless: able to formally annex Mercia 919; had extended control over much of would become England.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-why did Danish territories collapse so rapidly? Vikings no longer Vikings; had settled, had homes and farms to defend, no longer willing to spend long periods in field as army, no longer willing to go on long campaigns as had ancestors.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Alfred the Great, w/system of rotating military duty, had created Wessex army that could stay in the field for long periods.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[Cross from St. Andrew&amp;rsquo;s church, Middleton, Yorkshire]&lt;/b&gt; &amp;ndash; relic of period (late 9 or early 10c.) from area around York. Warlord seated on throne, surrounded by symbols of military power. Danish style helmet. What is significance of fact that this is on a cross?&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-left: 1in; text-indent: -0.25in;&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;span&gt;&lt;span&gt;B.&lt;span style=&quot;font: 7pt &amp;amp;amp;amp;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;York&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[back to AS England]&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-York in this period (1&lt;sup&gt;st&lt;/sup&gt; half 9c.) one of most thoroughly studied windows into ways that Scandinavian society in England developed.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-conquered 866; 876 turned into Scandinavian kingdom by one of leaders of Great Army, Halfdan&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-under successors; lots of Irish-Norse came to area; pushed out by Irish victory over Dublin Vikings 902 (won&amp;rsquo;t have time to talk about). Remember: these were Norwegians&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-910: three York chieftains killed by Edward the Elder&amp;rsquo;s Army; left room for Norse-Irish/Norwegian leader Ragnald to take over.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-kingdom left undisturbed until 927: Anglo-Saxon king Athelstan drove Norse-Irish out of York. This is Athelstan of Egil&amp;rsquo;s Saga.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Irish Norse kept trying: King Olaf Guthfrithsson of Dublin allied himself w/Scots and Welsh to try to retake York 937; crushingly defeated by Athelstan &lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-939: came back, drove through Northumbria and old Danish Mercia. Pushed back; 944 Anglo-Saxons had retaken York&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-this is when Erik Bloodaxe, exiled King of Norway from Egil&amp;rsquo;s Saga shows up. Siezes York 948. Gets into long struggle w/English King Eadred and Dublin King Olaf Sihtricson. Eventually driven out by Northumbrians themselves (mixed Danish/Norwegian/English population?) and Anglo-Saxons take control.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-upshot: York cauldron of people from all over the place: English, Scots, Danish, Norwegian, Irish. All under rule of Danes, then Irish-Norwegians, English, real Norwegians, etc., etc.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[map of Scandinavian York]&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-&amp;ldquo;York&amp;rdquo; not city&amp;rsquo;s original name. Originally Roman military base turned into city called Eboracum. &lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-York comes from Scandinavian name for city: Jorvik.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-under Scandinavian rule became flourishing trading port.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Scandinavians settled S of old Roman fort (where archbishop&amp;rsquo;s church and administration was &amp;ndash; which had kept going all through this)&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-starting in 1970&amp;rsquo;s, heart of Viking York has been excavated&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[Coppergate excavation site &amp;ndash; NA Saga 134]&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-most extensive recent excavations: Coppergate (1976-1981). Found series of long narrow wooden houses w/cellars facing a street&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-soil close to river waterlogged; good preservation&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-houses found to have housed craftsmen: copper and lead alloy debris, left-overs of silver, gold, iron.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[NA Saga 138: iron products]&lt;o:p&gt;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-one house was woodworker&amp;rsquo;s shop. &lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[NA Saga 136: wood cup]&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-Name for city section &amp;ldquo;Coppergate&amp;rdquo; probably comes from Old Norse &amp;ldquo;koppari&amp;rdquo; = wood-turner or cup-maker + &amp;ldquo;gata&amp;rdquo; = &amp;ldquo;street&amp;rdquo;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-leather-working: leather goods and leather-working tools found&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoHeader&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[NA Saga 135: knife and leather sheath, shoes]&lt;o:p&gt;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-imported materials also found: amber from the Baltic, jet from closer to home, in Yorkshire&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[NA Saga 136: amber and jet jewelry]&lt;o:p&gt;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-quite a bit of silk&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[NA Saga 137 Silk cap]&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-imported from Asia or Near East. Most Scandinavians wore wool, but enough silk found at Coppergate to indicate that not just wealthy wore it.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-definitely Scandinavians&amp;hellip;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[NA Saga 136: Coppergate ice skate]&lt;/b&gt; &amp;ndash; made of bone, almost identical to skates found in Sweden.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-commercial economy of York so important that Scandinavian kings minted silver coins for trade, even if they weren&amp;rsquo;t there very long&amp;hellip;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;[Penguin 70: Coin of Olaf Guthfrithsson]&lt;o:p&gt;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;&lt;b&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;georgia,palatino&quot; size=&quot;3&quot;&gt;-upshot: Viking York a manufacturing and trade city with connections ranging from Ireland to England, Scandinavia, N. Germany and farther &amp;ndash; in fact, wherever Scandinavians&lt;b&gt; &lt;/b&gt;went.&lt;/font&gt;&lt;b&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/b&gt;&lt;/p&gt;</description>
+         <url/>
+         <owner>
+           <id>1</id>
+           <email>shrimps@engineering.example.edu</email>
+           <first_name>Crusty</first_name>
+           <last_name>Anthropod</last_name>
+         </owner>
+         <map_id>25052491</map_id>
+         <position>2</position>
+         <created>2010-05-07 16:14:20</created>
+         <updated>2017-09-19 17:56:15</updated>
+        </asset>
+       </assets>
+      </box>
+     </boxes>
+</page>
+  </pages>
+  </guide>
+  </guides>
+</libguides>

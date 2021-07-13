@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customer>
+  <id>64</id>
+  <type>Academic Institution</type>
+  <name>Tiny Institute of Small Things</name>
+  <url>https://library.example.edu/</url>
+  <city>Anytown</city>
+  <state>Euforia</state>
+  <country>United Places of North America</country>
+  <time_zone>America/Los_Angeles</time_zone>
+  <created>2014-02-13 00:24:29</created>
+  <updated>2020-02-04 19:59:10</updated>
+</customer>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<account>
+   <id>1</id>
+   <email>shrimps@engineering.example.edu</email>
+   <first_name>Crusty</first_name>
+   <last_name>Anthropod</last_name>
+   <title>A Watery Engineer</title>
+   <nickname>Barnicle Bob</nickname>
+   <signature>Somewhere in the food chain | MC 0-07 | Anytown, Euforia 0000001 | 111-222-3333 | www.library.example.edu </signature>
+   <image></image>
+   <address></address>
+   <phone>(111) 222-3333</phone>
+   <skype></skype>
+   <website>https://caltechlibrary.github.io/</website>
+   <created>2019-09-09 22:37:09</created>
+   <updated>2020-06-29 15:24:34</updated>
+</account>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vendors>
+  <vendor>
+   <id>101127</id>
+   <name>American Chemical Society</name>
+  </vendor>
+  <vendor>
+   <id>78209</id>
+   <name>American Mathematical Society</name>
+  </vendor>
+  <vendor>
+   <id>83986</id>
+   <name>Brepolis</name>
+  </vendor>
+  <vendor>
+   <id>113355</id>
+   <name>CINDAS</name>
+  </vendor>
+  <vendor>
+   <id>105931</id>
+   <name>Cold Spring Harbor Laboratory</name>
+  </vendor>
+  <vendor>
+   <id>103354</id>
+   <name>EBSCO</name>
+  </vendor>
+  <vendor>
+   <id>109980</id>
+   <name>Elsevier</name>
+  </vendor>
+  <vendor>
+   <id>105710</id>
+   <name>Geological Society of America</name>
+  </vendor>
+  <vendor>
+   <id>105929</id>
+   <name>Institute of Physics (IOP)</name>
+  </vendor>
+  <vendor>
+   <id>102922</id>
+   <name>McGraw-Hill</name>
+  </vendor>
+  <vendor>
+   <id>99775</id>
+   <name>NIST</name>
+  </vendor>
+  <vendor>
+   <id>110156</id>
+   <name>Royal Society of Chemistry</name>
+  </vendor>
+  <vendor>
+   <id>91109</id>
+   <name>SRI International</name>
+  </vendor>
+  <vendor>
+   <id>105776</id>
+   <name>Swank</name>
+  </vendor>
+  <vendor>
+   <id>97422</id>
+   <name>Thieme</name>
+  </vendor>
+</vendors>

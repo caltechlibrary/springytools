@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subjects>
+  <subject>
+   <id>2</id>
+   <name>Biology</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=2</url>
+  </subject>
+  <subject>
+   <id>40</id>
+   <name>Business</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=40</url>
+  </subject>
+  <subject>
+   <id>346</id>
+   <name>Chemistry</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=346</url>
+  </subject>
+  <subject>
+   <id>983</id>
+   <name>Digital Repositories</name>
+   <url>https://libguides.example.edu/digitalrepositories</url>
+  </subject>
+  <subject>
+   <id>8339</id>
+   <name>Engineering</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=8339</url>
+  </subject>
+  <subject>
+   <id>834</id>
+   <name>Geological and Planetary Sciences</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=834</url>
+  </subject>
+  <subject>
+   <id>341</id>
+   <name>Humanities &amp; Social Sciences</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=341</url>
+  </subject>
+  <subject>
+   <id>343</id>
+   <name>Physics, Mathematics &amp; Astronomy</name>
+   <url>https://libguides.example.edu/sb.php?subject_id=343</url>
+  </subject>
+</subjects>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+  <id>64</id>
+  <type>LibGuides</type>
+  <name>LibGuides</name>
+  <domain>libguides.example.edu</domain>
+  <admin>libapps@library.example.edu</admin>
+  <created>2014-02-13 00:24:29</created>
+  <updated>2020-07-21 22:00:18</updated>
+</site>

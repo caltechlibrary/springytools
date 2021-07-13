@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accounts>
+  <account>
+   <id>1</id>
+   <email>shrimps@engineering.example.edu</email>
+   <first_name>Crusty</first_name>
+   <last_name>Anthropod</last_name>
+   <title>A Watery Engineer</title>
+   <nickname>Barnicle Bob</nickname>
+   <signature>Somewhere in the food chain | MC 0-07 | Anytown, Euforia 0000001 | 111-222-3333 | www.library.example.edu </signature>
+   <image></image>
+   <address></address>
+   <phone>(111) 222-3333</phone>
+   <skype></skype>
+   <website>https://caltechlibrary.github.io/</website>
+   <created>2019-09-09 22:37:09</created>
+   <updated>2020-06-29 15:24:34</updated>
+  </account>
+  <account>
+   <id>2</id>
+   <email>whales@telescopes.example.edu</email>
+   <first_name>Micro</first_name>
+   <last_name>Nanometer</last_name>
+   <title></title>
+   <nickname></nickname>
+   <signature></signature>
+   <image></image>
+   <address></address>
+   <phone></phone>
+   <skype></skype>
+   <website></website>
+   <created>2016-08-08 22:02:41</created>
+   <updated>2020-03-06 17:14:19</updated>
+  </account>
+  <account>
+   <id>3</id>
+   <email>tiff@feegles.example.edu</email>
+   <first_name>Tiffany</first_name>
+   <last_name>Aching</last_name>
+   <title></title>
+   <nickname>Kelda, the tall one</nickname>
+   <signature></signature>
+   <image></image>
+   <address></address>
+   <phone></phone>
+   <skype></skype>
+   <website></website>
+   <created>2017-05-26 16:11:34</created>
+   <updated>2020-06-29 22:37:02</updated>
+  </account>
+</accounts>

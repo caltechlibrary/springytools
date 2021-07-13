@@ -1,0 +1,10 @@
+
+In vim they showed up as 
+
+^A
+^K
+^L
+^S
+^C
+^R
+
