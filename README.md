@@ -6,7 +6,7 @@ A Golang package for working with LibGuides exported XML.
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg?style=flat-square)](https://choosealicense.com/licenses/bsd-3-clause)
 [![Latest release](https://img.shields.io/github/v/release/caltechlibrary/springytools.svg?style=flat-square&color=b44e88)](https://github.com/caltechlibrary/libguildestools/releases)
-<!-- [![DOI](https://data.caltech.edu/badge/201106666.svg)](https://data.caltech.edu/badge/latestdoi/201106666) -->
+[![DOI](https://data.caltech.edu/badge/201106666.svg)](https://data.caltech.edu/badge/latestdoi/201106666)
 
 
 Table of contents
