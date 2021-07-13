@@ -103,12 +103,10 @@ func TestAccount(t *testing.T) {
 }
 
 func TestAccounts(t *testing.T) {
-	accounts := []*Account{}
+	var accounts []*Account
 	if err := codingSequence(t, "testinput/accounts.xml", "testout/accounts.json", &accounts); err != nil {
 		t.FailNow()
 	}
-	i := len(accounts)
-	expectedInt(t, 3, i)
 }
 
 func TestGroups(t *testing.T) {
