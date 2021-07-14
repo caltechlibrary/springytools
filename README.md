@@ -52,7 +52,7 @@ git clone git@github.com:caltechlibrary/springytools
 cd springytools
 go test
 go build cmd/lgxml2json.go
-./lgxml2sjon LibGuides_export_XXXX.xml export.json
+./lgxml2sjon LibGuides_export_XXXXX.xml export.json
 jq . export.json
 go install cmd/lgxml2json.go
 ~~~
