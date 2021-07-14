@@ -44,7 +44,7 @@ and validate the JSON output before installing the tool lgxml2json)
 3. test
 4. build the command line tool __lgxml2json__
 5. use __lgxml2json__ and test output with __jq__
-  - Replace "LibGuides_export_XXXX.xml" with the file path to your exported LibGuides XML file
+  - Replace "LibGuides_export_XXXXX.xml" with the file path to your exported LibGuides XML file
 6. install __lgxml2json__
 
 ~~~
