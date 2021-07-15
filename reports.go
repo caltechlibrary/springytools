@@ -83,6 +83,10 @@ func LibGuidesXMLFileToJSONFile(srcName, destName string) error {
 	return nil
 }
 
+func ownerName(owner Owner) string {
+	return fmt.Sprintf("%s %s <%s>", owner.FirstName, owner.LastName, owner.Email)
+}
+
 // LinkReport reads in a LibGuides XML export and generates a link report
 // encoded in JSON. Accepts a srcName (LibGuides XML export), destName, format
 // (i.e. csv, json, xml). Returns an error if any encountered.
@@ -141,7 +145,7 @@ func LinkReport(srcName, destName, format string) error {
 	// Prep our reporting datastructure
 	tbl := new(Table)
 	tbl.SetCaption(fmt.Sprintf("Link report for %q", srcName))
-	tbl.AppendHeadings([]string{"URL",
+	tbl.AppendHeadings([]string{"URL", "Owner",
 		"Object Type", "Id",
 		"Guide Id", "Page Id",
 		"LibGuides Link", "Embedded URL"}...)
@@ -150,7 +154,7 @@ func LinkReport(srcName, destName, format string) error {
 	// data in the "guides" element. (tags and vendors are skipped, no URL data)
 	for _, account := range lg.Accounts {
 		if account.Website != "" {
-			tbl.AppendRow(account.Website,
+			tbl.AppendRow(account.Website, "",
 				"Account", strInt(account.Id),
 				"", "",
 				"", "false")
@@ -158,7 +162,7 @@ func LinkReport(srcName, destName, format string) error {
 	}
 	for _, group := range lg.Groups {
 		if group.Url != "" {
-			tbl.AppendRow(group.Url,
+			tbl.AppendRow(group.Url, "",
 				"Group", strInt(group.Id),
 				"", "",
 				group.Url, "false")
@@ -166,7 +170,7 @@ func LinkReport(srcName, destName, format string) error {
 	}
 	for _, subject := range lg.Subjects {
 		if subject.Url != "" {
-			tbl.AppendRow(subject.Url,
+			tbl.AppendRow(subject.Url, "",
 				"Subject", strInt(subject.Id),
 				"", "",
 				fmt.Sprintf("%s/sb.php?subject_id=%d", sitePrefix, subject.Id), "false")
@@ -176,14 +180,14 @@ func LinkReport(srcName, destName, format string) error {
 	for _, guide := range lg.Guides {
 		if guide.Url != "" {
 			// Note this is the Lib Guide URL
-			tbl.AppendRow(guide.Url,
+			tbl.AppendRow(guide.Url, ownerName(guide.Owner),
 				"Guide", strInt(guide.Id),
 				strInt(guide.Id), "",
 				guide.Url, "false")
 		}
 		group := guide.Group
 		if group.Url != "" {
-			tbl.AppendRow(group.Url,
+			tbl.AppendRow(group.Url, ownerName(guide.Owner),
 				"Guide/Group", strInt(guide.Id),
 				strInt(group.Id), "",
 				group.Url, "false")
@@ -191,7 +195,7 @@ func LinkReport(srcName, destName, format string) error {
 
 		for _, subject := range guide.Subjects {
 			if subject.Url != "" {
-				tbl.AppendRow(subject.Url,
+				tbl.AppendRow(subject.Url, ownerName(guide.Owner),
 					"Guide/Subject", strInt(subject.Id),
 					strInt(guide.Id), "",
 					subject.Url, "false")
@@ -201,7 +205,7 @@ func LinkReport(srcName, destName, format string) error {
 			// NOTE: Only report the page if it is not hidden
 			if page.Hidden == 0 {
 				if page.Url != "" {
-					tbl.AppendRow(page.Url,
+					tbl.AppendRow(page.Url, ownerName(guide.Owner),
 						"Page", strInt(page.Id),
 						strInt(guide.Id), strInt(page.Id),
 						page.Url, "false")
@@ -210,7 +214,7 @@ func LinkReport(srcName, destName, format string) error {
 					// NOTE: Scan for embedded URLs in the description
 					if urlList, cnt := ExtractHTTPLinks(page.Description); cnt > 0 {
 						for i := 0; i < cnt; i++ {
-							tbl.AppendRow(urlList[i],
+							tbl.AppendRow(urlList[i], ownerName(guide.Owner),
 								"Page/Description", fmt.Sprintf("%d of %d", i+1, cnt),
 								strInt(guide.Id), strInt(page.Id),
 								fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id), "true")
@@ -222,7 +226,7 @@ func LinkReport(srcName, destName, format string) error {
 					if box.Hidden == 0 {
 						for _, asset := range box.Assets {
 							if asset.Url != "" {
-								tbl.AppendRow(asset.Url,
+								tbl.AppendRow(asset.Url, ownerName(asset.Owner),
 									"Asset", strInt(asset.Id),
 									strInt(guide.Id), strInt(page.Id),
 									fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id), "false")
@@ -231,7 +235,7 @@ func LinkReport(srcName, destName, format string) error {
 								// NOTE: Scan for embedded URLs in the description
 								if urlList, cnt := ExtractHTTPLinks(asset.Description); cnt > 0 {
 									for i := 0; i < cnt; i++ {
-										tbl.AppendRow(urlList[i],
+										tbl.AppendRow(urlList[i], ownerName(asset.Owner),
 											"Asset/Description", fmt.Sprintf("%d of %d", i+1, cnt),
 											strInt(guide.Id), strInt(page.Id),
 											fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id), "true")
@@ -242,7 +246,7 @@ func LinkReport(srcName, destName, format string) error {
 						for _, pane := range box.Panes {
 							for _, asset := range pane.Assets {
 								if asset.Url != "" {
-									tbl.AppendRow(asset.Url,
+									tbl.AppendRow(asset.Url, ownerName(asset.Owner),
 										"Pane/Asset", strInt(asset.Id),
 										strInt(guide.Id), strInt(page.Id),
 										fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id), "false")
@@ -251,7 +255,7 @@ func LinkReport(srcName, destName, format string) error {
 									// NOTE: Scan for embedded URLs in the description
 									if urlList, cnt := ExtractHTTPLinks(asset.Description); cnt > 0 {
 										for k := 0; k < cnt; k++ {
-											tbl.AppendRow(urlList[k],
+											tbl.AppendRow(urlList[k], ownerName(asset.Owner),
 												"Pane/Asset/Description", fmt.Sprintf("%d of %d", k+1, cnt),
 												strInt(guide.Id), strInt(page.Id),
 												fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id), "true")
