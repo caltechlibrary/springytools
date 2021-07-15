@@ -40,6 +40,10 @@ import (
 	"io/ioutil"
 )
 
+func strInt(i int) string {
+	return fmt.Sprintf("%d", i)
+}
+
 // LibGuidesXMLFileToJSONFile reads in a LibGuides XML export file and writes
 // a JSON version of the file. It expects the name of the XML file in srcName
 // the name of the JSON file in destName. It will return an error if any
@@ -137,53 +141,59 @@ func LinkReport(srcName, destName, format string) error {
 	// Prep our reporting datastructure
 	tbl := new(Table)
 	tbl.SetCaption(fmt.Sprintf("Link report for %q", srcName))
-	tbl.AppendHeadings([]string{"URL (partial)", "Object Type", "Id", "LibGuides Link", "Embedded"}...)
+	tbl.AppendHeadings([]string{"URL",
+		"Object Type", "Id",
+		"Guide Id", "Page Id",
+		"LibGuides Link", "Embedded URL"}...)
 
 	// Traverse over each section of the export before finally analyziing the
 	// data in the "guides" element. (tags and vendors are skipped, no URL data)
 	for _, account := range lg.Accounts {
 		if account.Website != "" {
 			tbl.AppendRow(account.Website,
-				"Account",
-				fmt.Sprintf("%d", account.Id),
+				"Account", strInt(account.Id),
+				"", "",
 				"", "false")
 		}
 	}
 	for _, group := range lg.Groups {
 		if group.Url != "" {
-			tbl.AppendRow(group.Url, "Group",
-				fmt.Sprintf("%d", group.Id),
+			tbl.AppendRow(group.Url,
+				"Group", strInt(group.Id),
+				"", "",
 				group.Url, "false")
 		}
 	}
 	for _, subject := range lg.Subjects {
 		if subject.Url != "" {
-			tbl.AppendRow(subject.Url, "Subject",
-				fmt.Sprintf("%d", subject.Id),
-				fmt.Sprintf("%s/sb.php?subject_id=%d", sitePrefix, subject.Id),
-				"false")
+			tbl.AppendRow(subject.Url,
+				"Subject", strInt(subject.Id),
+				"", "",
+				fmt.Sprintf("%s/sb.php?subject_id=%d", sitePrefix, subject.Id), "false")
 		}
 	}
 	// Now process the guides, pages and assets
 	for _, guide := range lg.Guides {
 		if guide.Url != "" {
 			// Note this is the Lib Guide URL
-			tbl.AppendRow(guide.Url, "Guide",
-				fmt.Sprintf("%d", guide.Id),
-				guide.Url,
-				"false")
+			tbl.AppendRow(guide.Url,
+				"Guide", strInt(guide.Id),
+				strInt(guide.Id), "",
+				guide.Url, "false")
 		}
 		group := guide.Group
 		if group.Url != "" {
-			tbl.AppendRow(group.Url, fmt.Sprintf("Guide (%d) Group", guide.Id),
-				fmt.Sprintf("%d", group.Id),
+			tbl.AppendRow(group.Url,
+				"Guide/Group", strInt(guide.Id),
+				strInt(group.Id), "",
 				group.Url, "false")
 		}
 
 		for _, subject := range guide.Subjects {
 			if subject.Url != "" {
-				tbl.AppendRow(subject.Url, fmt.Sprintf("Guide (%d) Subject", guide.Id),
-					fmt.Sprintf("%d", subject.Id),
+				tbl.AppendRow(subject.Url,
+					"Guide/Subject", strInt(subject.Id),
+					strInt(guide.Id), "",
 					subject.Url, "false")
 			}
 		}
@@ -192,8 +202,8 @@ func LinkReport(srcName, destName, format string) error {
 			if page.Hidden == 0 {
 				if page.Url != "" {
 					tbl.AppendRow(page.Url,
-						fmt.Sprintf("Guide (%d) Page", guide.Id),
-						fmt.Sprintf("%d", page.Id),
+						"Page", strInt(page.Id),
+						strInt(guide.Id), strInt(page.Id),
 						page.Url, "false")
 				}
 				if page.Description != "" {
@@ -201,10 +211,9 @@ func LinkReport(srcName, destName, format string) error {
 					if urlList, cnt := ExtractHTTPLinks(page.Description); cnt > 0 {
 						for i := 0; i < cnt; i++ {
 							tbl.AppendRow(urlList[i],
-								fmt.Sprintf("Guide (%d) Page (%d) Description", guide.Id, page.Id),
-								fmt.Sprintf("%d of %d", i+1, cnt),
-								fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id),
-								"true")
+								"Page/Description", fmt.Sprintf("%d of %d", i+1, cnt),
+								strInt(guide.Id), strInt(page.Id),
+								fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id), "true")
 						}
 					}
 				}
@@ -214,42 +223,38 @@ func LinkReport(srcName, destName, format string) error {
 						for _, asset := range box.Assets {
 							if asset.Url != "" {
 								tbl.AppendRow(asset.Url,
-									fmt.Sprintf("Guide (%d) Page (%d) Boxes (%d) Asset", guide.Id, page.Id, box.Id),
-									fmt.Sprintf("%d", asset.Id),
-									fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id),
-									"false")
+									"Asset", strInt(asset.Id),
+									strInt(guide.Id), strInt(page.Id),
+									fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id), "false")
 							}
 							if asset.Description != "" {
 								// NOTE: Scan for embedded URLs in the description
 								if urlList, cnt := ExtractHTTPLinks(asset.Description); cnt > 0 {
 									for i := 0; i < cnt; i++ {
 										tbl.AppendRow(urlList[i],
-											fmt.Sprintf("Guide (%d) Page (%d) Boxes (%d) Asset (%d) Description", guide.Id, page.Id, box.Id, asset.Id),
-											fmt.Sprintf("%d of %d", i+1, cnt),
-											fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id),
-											"true")
+											"Asset/Description", fmt.Sprintf("%d of %d", i+1, cnt),
+											strInt(guide.Id), strInt(page.Id),
+											fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id), "true")
 									}
 								}
 							}
 						}
-						for i, pane := range box.Panes {
+						for _, pane := range box.Panes {
 							for _, asset := range pane.Assets {
 								if asset.Url != "" {
 									tbl.AppendRow(asset.Url,
-										fmt.Sprintf("Guide (%d) Page (%d) Boxes (%d) Pane (%d) Asset", guide.Id, page.Id, box.Id, i+1),
-										fmt.Sprintf("%d", asset.Id),
-										fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id),
-										"false")
+										"Pane/Asset", strInt(asset.Id),
+										strInt(guide.Id), strInt(page.Id),
+										fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id), "false")
 								}
 								if asset.Description != "" {
 									// NOTE: Scan for embedded URLs in the description
 									if urlList, cnt := ExtractHTTPLinks(asset.Description); cnt > 0 {
 										for k := 0; k < cnt; k++ {
 											tbl.AppendRow(urlList[k],
-												fmt.Sprintf("Guide (%d) Page (%d) Boxes (%d) Pane (%d) Asset (%d) Description", guide.Id, page.Id, box.Id, i+1, asset.Id),
-												fmt.Sprintf("%d of %d", k+1, cnt),
-												fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id),
-												"true")
+												"Pane/Asset/Description", fmt.Sprintf("%d of %d", k+1, cnt),
+												strInt(guide.Id), strInt(page.Id),
+												fmt.Sprintf("%s/c.php?g=%d&p=%d", sitePrefix, guide.Id, page.Id), "true")
 										}
 									}
 								}

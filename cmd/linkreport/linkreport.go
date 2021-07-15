@@ -67,8 +67,8 @@ EXAMPLE
 
     %s LibGuides_export_221133.xml links.json
 
-%s v%s
-`, appName, appName, appName, appName, springytools.Version)
+springytools v%s
+`, appName, appName, appName, springytools.Version)
 	os.Exit(exitCode)
 }
 
@@ -92,7 +92,7 @@ func main() {
 		usage(appName, 0)
 	}
 	if version {
-		fmt.Printf("%s v%s\n", appName, springytools.Version)
+		fmt.Printf("springytools, %s v%s\n", appName, springytools.Version)
 		os.Exit(0)
 	}
 	if len(args) != 2 {

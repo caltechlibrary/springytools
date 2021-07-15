@@ -6,7 +6,7 @@
     "codeRepository": "https://github.com/caltechlibrary/springytools",
     "issueTracker": "https://github.com/caltechlibrary/springytools/issues",
     "license": "https://github.com/caltechlibrary/springytools/blob/main/LICENSE",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": [
         {
             "@type": "Person",
