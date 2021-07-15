@@ -35,11 +35,12 @@ XML export file into JSON.
 Installation
 ------------
 
-This is a Golang package. It requires Go 1.16.x or better and can be installed by cloning the source repository on [GitHub](https://github.com/caltechlibrary/springytools). __jq__ is a JSON Query tool
-written by Stephen Dolan and is available form https://stedolan.github.io/jq/ (it is used to view
-and validate the JSON output before installing the tool lgxml2json)
+This is a Golang package providing two commands for working with LibGuides' exported XML. To
+compile you will need Go 1.16 or better, GNU Make and Stephen Dolan's [jq](https://stedolan.github.io/jq/) for browser JSON output.
 
-1. clone the repository
+### Steps to compile from source
+
+1. clone the [repository](https://github.com/caltechlibrary/springytools)
 2. change into the clone directory
 3. test
 4. build the command line tool __lgxml2json__
@@ -47,17 +48,7 @@ and validate the JSON output before installing the tool lgxml2json)
   - Replace "LibGuides_export_XXXXX.xml" with the file path to your exported LibGuides XML file
 6. install __lgxml2json__
 
-~~~
-git clone git@github.com:caltechlibrary/springytools
-cd springytools
-go test
-go build -o bin/lgxml2json cmd/lgxml2json/lgxml2json.go
-./bin/lgxml2sjon LibGuides_export_XXXXX.xml export.json
-jq . export.json
-go install cmd/lgxml2json/lgxml2json.go
-~~~
-
-If you have Go and Make installed you can do.
+Example commands to execute in the shell (e.g. Terminal on macOS, xterm on Linux)
 
 ~~~
 git clone git@github.com:caltechlibrary/springytools
@@ -67,12 +58,21 @@ make test
 make install
 ~~~
 
-By default installation is to your `$HOME/bin` directory.
+By default installation is to your `$HOME/bin` directory. This directory should be in 
+your shell's "PATH".
+
+You can get a brief description of the commands using the `-h` option with the command.
+
+~~~
+lgxml2json -h
+lglinkreport -h
+~~~
+
 
 Known issues and limitations
 ----------------------------
 
-This library is currently written to perform the LibGuide link analysis.
+This library is currently written to perform the LibGuides link analysis.
 It only provides the commands I needed to do the data anaysis. It will grow as needed.
 
 The exported XML output from the LibGuides may not be valid UTF-8.  UTF-8 encoding
