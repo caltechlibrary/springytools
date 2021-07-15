@@ -51,12 +51,23 @@ and validate the JSON output before installing the tool lgxml2json)
 git clone git@github.com:caltechlibrary/springytools
 cd springytools
 go test
-go build cmd/lgxml2json.go
-./lgxml2sjon LibGuides_export_XXXXX.xml export.json
+go build -o bin/lgxml2json cmd/lgxml2json/lgxml2json.go
+./bin/lgxml2sjon LibGuides_export_XXXXX.xml export.json
 jq . export.json
-go install cmd/lgxml2json.go
+go install cmd/lgxml2json/lgxml2json.go
 ~~~
 
+If you have Go and Make installed you can do.
+
+~~~
+git clone git@github.com:caltechlibrary/springytools
+cd springytools
+make
+make test
+make install
+~~~
+
+By default installation is to your `$HOME/bin` directory.
 
 Known issues and limitations
 ----------------------------
