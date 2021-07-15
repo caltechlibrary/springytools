@@ -24,11 +24,11 @@ Table of contents
 Introduction
 ------------
 
-There is a periodic need to work with exported LibGuide XML in Caltech Library.  This is a golang
-package for working with the explorted data. Go provides a robust may of mapping simple data structures
-to and from XML (or JSON). This makes working with XML very easy in a consistant fashion. It seem time to move beyond my usual Bash/sed/python scripts.
+There is a periodic need to work with exported LibGuides XML in Caltech Library.  This is a Golang
+package for working with the exported data. Go provides a robust may of mapping simple data structures
+to and from XML (or JSON). This makes working with XML very easy in a consistent fashion. It seem time to move beyond my usual Bash/sed/python scripts.
 
-One program is currrently provided with springytools, __lgxml2sjon__ which converts a LibGuides
+One program is currently provided with springytools, __lgxml2sjon__ which converts a LibGuides
 XML export file into JSON.
 
 
@@ -73,7 +73,7 @@ Known issues and limitations
 ----------------------------
 
 This library is currently written to perform the LibGuides link analysis.
-It only provides the commands I needed to do the data anaysis. It will grow as needed.
+It only provides the commands I needed to do the data analysis. It will grow as needed.
 
 The exported XML output from the LibGuides may not be valid UTF-8.  UTF-8 encoding
 is required to successfully parse the export file. Looking at the raw XML markup in __vim__
@@ -81,9 +81,9 @@ I noticed a number of control code sequences. This corresponded to the errors on
 the unsanitized XML file. The problem characters appear as `^A, ^K, ^L, ^S, ^C, ^R`. These
 maybe non-UTF-8 characters embedded as UTF-8 when the rich text documents were pasted in via
 the LibGuides edit UI. My hunch is these were pasted in/imported from Word documents. Remove
-the offending characters allowed the export to parse successfully. These edits are distructive
-as some of the codes probably prepresent UTF-8 characters used in non-English European names or
-termonology.
+the offending characters allowed the export to parse successfully. These edits are destructive
+as some of the codes probably represent UTF-8 characters used in non-English European names or
+terminology.
 
 
 
