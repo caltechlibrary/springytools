@@ -31,22 +31,21 @@ version.go: .FORCE
 	@echo '' >>version.go
 
 $(PROGRAMS): $(PACKAGE)
-	mkdir -p bin
+	@mkdir -p bin
 	go build -o bin/$@$(EXT) cmd/$@/$@.go
 
 test: $(PACKAGE)
 	go test
 
-install: build $(PROGRAMS)
+install: build
 	@echo "Installing programs in $(PREFIX)/bin"
-	@cp -vR bin/* $(PREFIX)/bin/
+	@for FNAME in $(PROGRAMS); do if [ -f ./bin/$$FNAME ]; then cp -v ./bin/$$FNAME $(PREFIX)/bin/$$FNAME; fi; done
 	@echo ""
 	@echo "Make sure $(PREFIX)/bin is in your PATH"
 
-uninstall: $(PROGRAMS)
+uninstall: .FORCE
 	@echo "Removing programs in $(PREFIX)/bin"
-	@rm $(PREFIX)/bin/lgxml2json
-	@rm $(PREFIX)/bin/lglinkreport
+	@for FNAME in $(PROGRAMS); do if [ -f $(PREFIX)/bin/$$FNAME ]; then rm -v $(PREFIX)/bin/$$FNAME; fi; done
 
 clean: .FORCE
 	@if [ -f version.go ]; then rm version.go; fi
@@ -56,45 +55,40 @@ clean: .FORCE
 
 
 dist-documentation: .FORCE
-	cp LICENSE dist/
-	cp codemeta.json dist/
-	cp CITATION.cff dist/
-	cp [A-Z]*.md dist/
+	@cp LICENSE dist/
+	@cp codemeta.json dist/
+	@cp CITATION.cff dist/
+	@cp [A-Z]*.md dist/
 
 dist-Linux-x86_64: .FORCE
 	@if [ -d dist/bin ]; then rm -fR dist/bin; fi
-	env GOOS=linux GOARCH=amd64 go build -o dist/bin/lgxml2json cmd/lgxml2json/lgxml2json.go
-	env GOOS=linux GOARCH=amd64 go build -o dist/bin/lglinkreport cmd/lglinkreport/lglinkreport.go
-	cd dist && zip -r $(PROJECT)-Linux-x86_64-$(VERSION).zip LICENSE *.json *.cff *.md bin/*
+	@for FNAME in $(PROGRAMS); do env GOOS=linux GOARCH=amd64 go build -o dist/bin/$$FNAME cmd/$$FNAME/$$FNAME.go; done
+	@cd dist && zip -r $(PROJECT)-Linux-x86_64-$(VERSION).zip LICENSE *.json *.cff *.md bin/*
 
 dist-Darwin-x86_64: .FORCE
 	@if [ -d dist/bin ]; then rm -fR dist/bin; fi
-	env GOOS=darwin GOARCH=amd64 go build -o dist/bin/lgxml2json cmd/lgxml2json/lgxml2json.go
-	env GOOS=darwin GOARCH=amd64 go build -o dist/bin/lglinkreport cmd/lglinkreport/lglinkreport.go
-	cd dist && zip -r $(PROJECT)-macOS-x86_64-$(VERSION).zip LICENSE *.json *.cff *.md bin/*
+	@for FNAME in $(PROGRAMS); do env GOOS=darwin GOARCH=amd64 go build -o dist/bin/$$FNAME cmd/$$FNAME/$$FNAME.go; done
+	@cd dist && zip -r $(PROJECT)-macOS-x86_64-$(VERSION).zip LICENSE *.json *.cff *.md bin/*
 
 dist-Darwin-arm64: .FORCE
 	@if [ -d dist/bin ]; then rm -fR dist/bin; fi
-	env GOOS=darwin GOARCH=arm64 go build -o dist/bin/lgxml2json cmd/lgxml2json/lgxml2json.go
-	env GOOS=darwin GOARCH=arm64 go build -o dist/bin/lglinkreport cmd/lglinkreport/lglinkreport.go
-	cd dist && zip -r $(PROJECT)-macOS-arm64-$(VERSION).zip LICENSE *.json *.cff *.md bin/*
+	@for FNAME in $(PROGRAMS); do env GOOS=darwin GOARCH=arm64 go build -o dist/bin/$$FNAME cmd/$$FNAME/$$FNAME.go; done
+	@cd dist && zip -r $(PROJECT)-macOS-arm64-$(VERSION).zip LICENSE *.json *.cff *.md bin/*
 
 dist-Raspbian-arm7: .FORCE
 	@if [ -d dist/bin ]; then rm -fR dist/bin; fi
-	env GOOS=linux GOARCH=arm GOARM=7 go build -o dist/bin/lgxml2json cmd/lgxml2json/lgxml2json.go
-	env GOOS=linux GOARCH=arm GOARM=7 go build -o dist/bin/lglinkreport cmd/lglinkreport/lglinkreport.go
-	cd dist && zip -r $(PROJECT)-Raspbian-arm7-$(VERSION).zip LICENSE *.json *.cff *.md bin/*
+	@for FNAME in $(PROGRAMS); do env GOOS=linux GOARCH=arm GOARM=7 go build -o dist/bin/$$FNAME cmd/$$FNAME/$$FNAME.go; done
+	@cd dist && zip -r $(PROJECT)-Raspbian-arm7-$(VERSION).zip LICENSE *.json *.cff *.md bin/*
 
 dist-Windows-x86_64: .FORCE
 	@if [ -d dist/bin ]; then rm -fR dist/bin; fi
-	env GOOS=windows GOARCH=amd64 go build -o dist/bin/lgxml2json.exe cmd/lgxml2json/lgxml2json.go
-	env GOOS=windows GOARCH=amd64 go build -o dist/bin/lglinkreport.exe cmd/lglinkreport/linkreport.go
-	cd dist && zip -r $(PROJECT)-Windows-x86_64-$(VERSION).zip LICENSE *.json *.cff *.md bin/*
+	@for FNAME in $(PROGRAMS); do env GOOS=windows GOARCH=amd64 go build -o dist/bin/$$FNAME.exe cmd/$$FNAME/$$FNAME.go; done
+	@cd dist && zip -r $(PROJECT)-Windows-x86_64-$(VERSION).zip LICENSE *.json *.cff *.md bin/*
 
 
 dist: .FORCE
-	mkdir -p dist
+	@mkdir -p dist
 
-release: dist version.go $(PROGRAMS) dist-documentation dist-Linux-x86_64 dist-Raspbian-arm7 dist-Darwin-arm64 dist-Darwin-x86_64 dist-Windows-x86_64
+release: version.go dist dist-documentation dist-Linux-x86_64 dist-Raspbian-arm7 dist-Darwin-arm64 dist-Darwin-x86_64 dist-Windows-x86_64
 
 .FORCE:
