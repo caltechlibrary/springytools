@@ -88,6 +88,9 @@ __pycache__
 
 # private to your LibGuide Install, never add to Git
 private
-lgxml2json*
+version.go
+lgxml2json
+linkreport
 *.json
 *.xml
+*.csv
