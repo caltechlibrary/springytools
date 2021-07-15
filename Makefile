@@ -1,9 +1,11 @@
-
+#
+# Default Go project makefile, Caltech Library
+#
 PROJECT = springytools
 
 VERSION = $(shell jq .version codemeta.json | sed -E 's/"//g')
 
-PROGRAMS = lgxml2json lglinkreport
+PROGRAMS = $(shell ls -1 cmd/)
 
 PACKAGE = $(shell ls -1 *.go)
 
