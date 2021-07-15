@@ -47,6 +47,17 @@ uninstall: .FORCE
 	@echo "Removing programs in $(PREFIX)/bin"
 	@for FNAME in $(PROGRAMS); do if [ -f $(PREFIX)/bin/$$FNAME ]; then rm -v $(PREFIX)/bin/$$FNAME; fi; done
 
+status:
+	@git status
+
+save:
+	@if [ "$(msg)" != "" ]; then git commit -am "$(msg)"; else git commit -am "Quick Save"; fi
+	@git push origin $(BRANCH)
+
+refresh:
+	@git fetch origin
+	@git pull origin $(BRANCH)
+
 clean: .FORCE
 	@if [ -f version.go ]; then rm version.go; fi
 	@if [ -d bin ]; then rm -fR bin; fi
